@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — UpgradeResto</title>
+    <meta
+      name="description"
+      content="Contactez UpgradeResto pour recevoir votre audit gratuit ou démarrer l'optimisation de votre fiche Google."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand-mark">UR</span>
+        <span class="brand-text">UpgradeResto</span>
+      </div>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="offres.html" class="nav-link">Offres</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section hero-small">
+        <p class="eyebrow">Contact</p>
+        <h1>Recevez votre audit gratuit ou commencez votre optimisation</h1>
+      </section>
+
+      <section class="section section-soft contact-section">
+        <div class="contact-grid">
+          <div>
+            <p class="section-copy">
+              Remplissez le formulaire ci-dessous et notre équipe vous contactera sous 24h pour étudier votre visibilité Google.
+            </p>
+            <div class="contact-info">
+              <p><strong>Réponse sous 24h</strong></p>
+              <p>Conseils adaptés aux restaurants locaux.</p>
+            </div>
+          </div>
+
+          <form id="contact-form" class="contact-form">
+            <label>
+              Nom
+              <input type="text" name="name" placeholder="Votre nom" required />
+            </label>
+            <label>
+              Nom du restaurant
+              <input type="text" name="restaurant" placeholder="Nom du restaurant" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="votre@email.com" required />
+            </label>
+            <label>
+              Téléphone
+              <input type="tel" name="phone" placeholder="06 12 34 56 78" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Décrivez votre situation" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+            <p id="form-message" class="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <span class="brand-mark">UR</span>
+        <span class="brand-text">UpgradeResto</span>
+      </div>
+      <p>Site premium pour une agence digitale dédiée à la visibilité des restaurants sur Google.</p>
+      <p class="footer-note">© 2026 UpgradeResto. Réponse sous 24h.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
